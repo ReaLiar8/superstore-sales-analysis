@@ -7,7 +7,7 @@ Source: [yashadafunde-04/superstore-sales-analysis](https://github.com/yashadafu
 
 ## Analyses:
 - Top 10 products by sales
-- Demand on categories
+- Demand on products categories
 - Amount of sold products and average sales from each city in California
 - States with the most consumer customers
 - Customers from Kentucky with sales over 500
