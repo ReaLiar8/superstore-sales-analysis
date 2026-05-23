@@ -4,7 +4,7 @@ GROUP by "Product Name"
 ORDER by sum(Sales) DESC
 LIMIT 10;
 
---Demand on products categories--
+--Demand on product categories--
 SELECT Category, count(Category) as 'Amount of products' FROM superstore
 GROUP by Category
 ORDER by count(Category) DESC;
