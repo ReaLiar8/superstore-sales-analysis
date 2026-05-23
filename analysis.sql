@@ -4,7 +4,7 @@ GROUP by "Product Name"
 ORDER by sum(Sales) DESC
 LIMIT 10;
 
---Demand on categories--
+--Demand on products categories--
 SELECT Category, count(Category) as 'Amount of products' FROM superstore
 GROUP by Category
 ORDER by count(Category) DESC;
@@ -21,7 +21,7 @@ WHERE Segment = "Consumer"
 GROUP by State
 ORDER by count(Segment) DESC;
 
---Customers from Kentucky with sales more than 500--
+--Customers from Kentucky with sales over 500--
 SELECT "Customer name", sum(Sales) as 'Total Sales' FROM superstore
 WHERE State = "Kentucky"
 GROUP by "Customer name"
